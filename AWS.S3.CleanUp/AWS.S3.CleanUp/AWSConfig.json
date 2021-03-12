@@ -1,0 +1,69 @@
+[
+  {
+    "air": 1000,
+    "name": "stage",
+    "region": "us-east-1",
+    "accesskey": "MY_AWS_ACCOUNT",
+    "secretkey": "MY_SECRET_KEY",
+    "logGroupNamePrefix": "/aws/lambda/YOUR_LOG_PATH",
+    "S3Buckets": [
+      "my_bucket_name_1_stg",
+      "my_bucket_name_2_stg",
+      "my_bucket_name_3_srt"
+    ]
+
+  },
+  {
+    "air": 1000,
+    "name": "dev",
+    "region": "us-east-1",
+    "accesskey": "MY_AWS_ACCOUNT",
+    "secretkey": "MY_SECRET_KEY",
+    "logGroupNamePrefix": "/aws/lambda/YOUR_LOG_PATH",
+    "S3Buckets": [
+      "my_bucket_name_1_dev",
+      "my_bucket_name_2_dev",
+      "my_bucket_name_3_dev"
+    ]
+
+  },
+  {
+    "air": 1000,
+    "name": "prod",
+    "region": "us-east-1",
+    "accesskey": "MY_AWS_ACCOUNT",
+    "secretkey": "MY_SECRET_KEY",
+    "logGroupNamePrefix": "/aws/lambda/YOUR_LOG_PATH",
+    "S3Buckets": [
+      "my_bucket_name_1_prod",
+      "my_bucket_name_2_prod",
+      "my_bucket_name_3_prod"
+    ]
+  },
+  {
+    "air": 1000,
+    "name": "prod",
+    "region": "us-east-1",
+    "accesskey": "MY_AWS_ACCOUNT",
+    "secretkey": "MY_SECRET_KEY",
+    "logGroupNamePrefix": "/aws/lambda/YOUR_LOG_PATH",
+    "S3Buckets": [
+      "my_bucket_name_1_prod",
+      "my_bucket_name_2_prod",
+      "my_bucket_name_3_prod"
+    ]
+  }
+  {
+    "air": 1000,
+    "name": "test",
+    "region": "us-east-1",
+    "accesskey": "MY_AWS_ACCOUNT",
+    "secretkey": "MY_SECRET_KEY",
+    "logGroupNamePrefix": "/aws/lambda/YOUR_LOG_PATH",
+    "S3Buckets": [
+      "my_bucket_name_1_test",
+      "my_bucket_name_2_test",
+      "my_bucket_name_3_test"
+    ]
+  }
+]
